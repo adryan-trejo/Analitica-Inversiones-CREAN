@@ -1,0 +1,18 @@
+project:
+  random_seed: 42
+  python_version: "3.9.12"
+
+data:
+  raw_path: "data/raw"
+  interim_path: "data/interim"
+  processed_path: "data/processed"
+
+modeling:
+  adoption_horizon_days: 90
+  observation_months: 6
+  top_k_values: [0.01, 0.05, 0.10, 0.20]
+  cutoff_dates: ["2025-12-01", "2026-01-01", "2026-02-01", "2026-03-01"]
+
+outputs:
+  path: "outputs"
+  artifacts_path: "artifacts"

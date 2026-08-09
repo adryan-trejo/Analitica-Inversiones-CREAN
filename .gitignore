@@ -1,0 +1,42 @@
+# Entornos virtuales
+venv/
+.venv/
+
+# Cachés y artefactos de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos intermedios y procesados regenerables (las bases originales en data/raw/ sí se versionan)
+data/interim/*
+data/processed/*
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+docs/*
+catboost_info/
+outputs/*
+!outputs/.gitkeep
+
+# Modelos y metadatos regenerables (se conservan solo los seleccionados, agregados manualmente si aplica)
+artifacts/metadata/*
+artifacts/models/*
+!artifacts/metadata/.gitkeep
+!artifacts/models/.gitkeep
+
+# Salidas regenerables (se versionan solo los entregables finales definidos por el proyecto)
+outputs/*
+!outputs/.gitkeep
+!outputs/scoring_clientes.parquet
+!outputs/resumen_oportunidad.csv
+
+# Archivos locales
+*.log
+.DS_Store
+
+# Contexto prueba técnica y diseño solución
+diseno_solucion.md
+enunciado_prueba_tecnica_crean.md
+guia_prompts.md
+resumen.md
+informacion_extra.md

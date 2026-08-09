@@ -1,0 +1,5 @@
+segmento_oportunidad,clientes,probabilidad_promedio,saldo_esperado_promedio,saldo_esperado_total,oportunidad_conservadora,oportunidad_base,oportunidad_expansiva
+Alta probabilidad y alto valor,179983,0.04,244753.55,44051478104.66,30836034673.26,44051478104.66,57266921536.06
+Alta probabilidad y valor moderado,233398,0.02,54741.91,12776651303.66,8943655912.56,12776651303.66,16609646694.76
+Baja prioridad,398541,0.0,5890.82,2347734951.01,1643414465.71,2347734951.01,3052055436.31
+Probabilidad moderada y alto valor,14840,0.0,21748.74,322751255.35,225925878.74,322751255.35,419576631.96
