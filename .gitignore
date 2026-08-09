@@ -13,7 +13,6 @@ data/interim/*
 data/processed/*
 !data/interim/.gitkeep
 !data/processed/.gitkeep
-docs/*
 catboost_info/
 outputs/*
 !outputs/.gitkeep
