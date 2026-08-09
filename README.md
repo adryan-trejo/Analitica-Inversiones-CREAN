@@ -5,8 +5,12 @@ Solución analítica para identificar clientes con mayor probabilidad de adoptar
 
 ## Requisitos
 
-- Windows
 - Python 3.9.12
+
+> La solución fue desarrollada y probada en Windows. Los comandos de esta guía
+> utilizan la estructura de un entorno virtual de Windows (`venv/Scripts/python.exe`).
+> En Linux o macOS debe utilizarse el ejecutable equivalente, normalmente
+> `venv/bin/python`; estos sistemas operativos no fueron validados.
 
 ## Datos de entrada
 
